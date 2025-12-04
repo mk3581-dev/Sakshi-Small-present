@@ -2,46 +2,40 @@ import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef, useState } from 'react';
 import { Heart, Star, Sparkles } from 'lucide-react';
-import sakshi1 from '@/assets/sakshi-1.jpg';
-import sakshi2 from '@/assets/sakshi-2.jpg';
-import sakshi3 from '@/assets/sakshi-3.jpg';
-import sakshi4 from '@/assets/sakshi-4.jpg';
-import sakshi7 from '@/assets/sakshi-7.jpg';
-import sakshi8 from '@/assets/sakshi-8.jpg';
 
 const memories = [
   {
-    image: sakshi3,
+    image: '/sakshi-3.jpg',
     caption: "This moment deserved its own constellation.",
     rotation: -3,
     size: 'large',
   },
   {
-    image: sakshi7,
+    image: '/sakshi-7.jpg',
     caption: "A small memory… but it stayed.",
     rotation: 2,
     size: 'medium',
   },
   {
-    image: sakshi1,
+    image: '/sakshi-1.jpg',
     caption: "Warmth that words can't quite capture.",
     rotation: -2,
     size: 'medium',
   },
   {
-    image: sakshi2,
+    image: '/sakshi-2.jpg',
     caption: "Some smiles echo longer than others.",
     rotation: 4,
     size: 'large',
   },
   {
-    image: sakshi4,
+    image: '/sakshi-4.jpg',
     caption: "Elegance in every frame.",
     rotation: -4,
     size: 'medium',
   },
   {
-    image: sakshi8,
+    image: '/sakshi-8.jpg',
     caption: "Moments turned into memories.",
     rotation: 1,
     size: 'medium',

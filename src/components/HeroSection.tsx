@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
 import { Heart, Star, Sparkles } from 'lucide-react';
-import sakshiHero from '@/assets/sakshi-5.jpg';
 
 const FloatingHeart = ({ delay, x, size = 16 }: { delay: number; x: string; size?: number }) => (
   <motion.div
@@ -130,7 +129,7 @@ const HeroSection = () => {
             <div className="photo-frame-glow rounded-3xl overflow-hidden">
               <div className="p-2 bg-card/80 backdrop-blur-sm rounded-3xl">
                 <img
-                  src={sakshiHero}
+                  src="/sakshi-5.jpg"
                   alt="Sakshi"
                   className="w-64 h-80 md:w-80 md:h-96 object-cover rounded-2xl"
                 />
